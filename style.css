@@ -1,103 +1,108 @@
 @charset "UTF-8";
 
-* {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    margin: 0px;
-    padding: 0px;
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin: 0px;
+        padding: 0px;
+        }
+
+
+
+    body {
+        background: url(imagens/sim.jpg) center right no-repeat, url(imagens/simsim.jpg) center left no-repeat;
+        background-attachment: fixed;
+        }
+
+    header {
+        background-image: url(imagens/imagemmenor.jpg);
+        background-position: bottom left;
+        background-repeat: no-repeat;
+        max-width: 1500px;
+        min-width: 300px;
+        min-height: 200px;
+        padding: 5px 0px 5px 0px;
+        margin: auto;
+        background-color: rgba(255, 255, 255, 0.945);
+        text-align: center;
+        }
+
+    h1 {
+        background-color: rgba(0, 0, 0, 0.308);
+        font-size: 3em ;
+        color: #e9e50a;
+        padding: 77px 0px 65px 0px;
+        text-shadow: 2px 5px 1px rgba(0, 0, 0, 0.459);
     }
 
-body {
-    background: url(imagens/sim.jpg) center right no-repeat, url(imagens/simsim.jpg) center left no-repeat;
-    background-attachment: fixed;
-    }
+    main {
+        max-width: 1500px;
+        min-width: 600px;
+        background-color: rgba(255, 255, 255, 0.945);
+        margin: auto;
+        border-radius: 0px 0px 5px 5px;
+        box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.637);
+        padding: 20px 0px 10px 0px;
+        }
 
-header {
-    background-image: url(imagens/imagemmenor.jpg);
-    background-position: bottom left;
-    background-repeat: no-repeat;
-    max-width: 1500px;
-    min-width: 300px;
-    min-height: 200px;
-    padding: 5px 0px 5px 0px;
-    margin: auto;
-    background-color: rgba(255, 255, 255, 0.945);
-    text-align: center;
-    }
-
-h1 {
-    background-color: rgba(0, 0, 0, 0.308);
-    font-size: 3em ;
-    color: #e9e50a;
-    padding: 77px 0px 65px 0px;
-    text-shadow: 2px 5px 1px rgba(0, 0, 0, 0.459);
-}
-
-main {
-    max-width: 1500px;
-    min-width: 300px;
-    background-color: rgba(255, 255, 255, 0.945);
-    margin: auto;
-    border-radius: 0px 0px 5px 5px;
-    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.637);
-    padding: 20px 0px 10px 0px;
-    }
-
-div {
-    display: inline-block;
-    min-width: 289px;
-    margin: 10px;
-    padding: 30px;
-    border: black 1px solid;
-    border-radius: 5px;
-    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.658);
-    }
+    div {
+        display: inline-block;
+        min-width: 289px;
+        margin: 10px;
+        padding: 30px;
+        border: black 1px solid;
+        border-radius: 5px;
+        box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.658);
+        }
 
     main > div:nth-child(odd) {
-        background-color: lightgrey;
-    }
+            background-color: lightgrey;
+        }
 
-p {
-    text-decoration: underline;
-    text-align: center;
-    font-weight: bolder;
-    font-size: 1.7em;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-    }
+    p {
+        text-decoration: underline;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 1.7em;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        }
     
-ul > li {
-    font-weight: bold;
-    
-}
-
-footer {
-    margin-top: 15px;
-    padding: 6px 0px 3px 0px;
-    background-color: rgba(0, 0, 0, 0.548);
-    color: white;
+    ul {
+        list-style-type: none;
     }
 
-footer > p {
-    text-decoration: none;
+    ul > li {
+        text-align: justify;
     }
 
-a {
-    color:white;
-    background-color: rgba(129, 15, 236, 0.301);
-    text-decoration: none;
-    padding-left: 10px;
+    footer {
+        margin-top: 15px;
+        padding: 6px 0px 3px 0px;
+        background-color: rgba(0, 0, 0, 0.548);
+        color: white;
     }
 
-a::after {
-    content: '\00A0\1F517';
-}
-
-a:visited {
-    color: #e9e50a;
+    footer > p {
+        text-decoration: none;
     }
 
-a:hover {
-    color: #e9e50a;
-    text-decoration: underline;
+    a {
+        color:white;
+        background-color: rgba(129, 15, 236, 0.301);
+        text-decoration: none;
+        padding-left: 10px;
+        }
+
+    a::after {
+        content: '\00A0\1F517';
     }
+
+    a:visited {
+        color: #e9e50a;
+        }
+
+    a:hover {
+        color: #e9e50a;
+        text-decoration: underline;
+        }
