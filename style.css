@@ -5,22 +5,23 @@
         font-weight: bold;
         margin: 0px;
         padding: 0px;
+        box-sizing: border-box;
         }
 
 
 
     body {
-        background: url(imagens/sim.jpg) center right no-repeat, url(imagens/simsim.jpg) center left no-repeat;
+        background: url(imagens/residente.jpg) center right no-repeat, url(imagens/residente.jpg) center left no-repeat;
         background-attachment: fixed;
         }
 
     header {
-        background-image: url(imagens/imagemmenor.jpg);
-        background-position: bottom left;
-        background-repeat: no-repeat;
+        background: url(imagens/cyperpunk.jpg) no-repeat center center;
+        background-size: cover;
         max-width: 1500px;
         min-width: 300px;
         min-height: 200px;
+        max-height: 500px;
         padding: 5px 0px 5px 0px;
         margin: auto;
         background-color: rgba(255, 255, 255, 0.945);
@@ -36,54 +37,45 @@
     }
 
     main {
+        background-color: white;
+        box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, 0.774);
         max-width: 1500px;
-        min-width: 600px;
-        background-color: rgba(255, 255, 255, 0.945);
-        margin: auto;
+        min-width: 350px;
         border-radius: 0px 0px 5px 5px;
-        box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.637);
-        padding: 20px 0px 10px 0px;
-        }
+        margin: auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-content: space-evenly;
+    }
+
+    main > div:nth-child(even) {
+        background-color: lightgray;
+    }
 
     div {
-        display: inline-block;
-        min-width: 289px;
-        margin: 10px;
-        padding: 30px;
-        border: black 1px solid;
+        min-width: 350px;
+        border: 1px solid black;
         border-radius: 5px;
-        box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.658);
-        }
-
-    main > div:nth-child(odd) {
-            background-color: lightgrey;
-        }
+        box-shadow: 1px 1px 2px 0px rgb(0 0 0 / 60%);
+        margin: 4px;
+        padding: 10px;
+    }
 
     p {
-        text-decoration: underline;
+        font-size: 1.3em;
         text-align: center;
-        font-weight: bolder;
-        font-size: 1.7em;
-        padding-bottom: 10px;
-        margin-bottom: 10px;
-        }
-    
+    }
+
     ul {
         list-style-type: none;
+        font-size: 1em;
     }
 
-    ul > li {
-        text-align: justify;
-    }
-
-    footer {
-        margin-top: 15px;
-        padding: 6px 0px 3px 0px;
-        background-color: rgba(0, 0, 0, 0.548);
-        color: white;
-    }
 
     footer > p {
+        background-color: rgba(0, 0, 0, 0.836);
+        color: white;
         text-decoration: none;
     }
 
