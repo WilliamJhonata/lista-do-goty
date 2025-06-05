@@ -1,0 +1,10 @@
+@charset "UFT-8";
+
+body {
+    background: url(imagens/residente.jpg) no-repeat bottom center;
+     background-attachment: fixed;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.493);
+}
